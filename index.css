@@ -1,0 +1,65 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;  /* it convert top-down form to left to right form in unordered list items */
+    list-style: none; /*it remove dots before the items*/
+    background-color:rgb(86, 27, 152);
+    height: 60px;
+    align-items: center; /*to align the items in center*/
+    color: whitesmoke;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.logo img{
+    width: 60px;
+    padding: 0 5px;
+}
+.logo{
+    display: flex;  
+    align-items: center;  /*when both up and this written together align the text and logo together*/
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+.main{
+    color: whitesmoke;
+    min-height: 20vh;
+    display: flex;  /*it cause the content to able to change its position*/
+    align-items:flex-end ; /*it makes the item to align it in top-down way in the container*/
+    justify-content: center; /*it makes the item to align it in the left-right way in the container*/
+    font-size: 3rem;
+}
+.convertor{
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+    color: whitesmoke;
+    min-height: 50vh;
+}
+#enter{
+    border-radius: 2px;
+    background-color: antiquewhite;
+    margin: 0 20vh;
+}
+#demo{
+    border-radius: 2px;
+    background-color: antiquewhite;
+    border: solid 2px black;
+    margin: 0 20vh;
+}
+#as{
+    margin: 0 5vh 15vh 5vh;
+    height: 40px;
+    width: 100px;
+    font-weight: bolder;
+}

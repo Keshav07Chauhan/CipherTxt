@@ -1,0 +1,15 @@
+#enter{
+    border-radius: 2px;
+    background-color: antiquewhite;
+}
+#demo{
+    border-radius: 2px;
+    background-color: antiquewhite;
+    border: solid 2px black;
+}
+body{
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
